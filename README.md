@@ -20,6 +20,7 @@ Short description of project!
 ![Contributors](https://img.shields.io/github/contributors/user/repo?color=dark-green) ![Issues](https://img.shields.io/github/issues/user/repo) ![License](https://img.shields.io/github/license/user/repo)
 
 Table of Contents
+
 - [About The Project](#about-the-project)
   - [Built With](#built-with)
 - [Getting Started](#getting-started)
@@ -34,10 +35,13 @@ Table of Contents
 - [Notice](#notice)
 
 ## About The Project
+
 About the project, include images here too.
 
 ### Built With
+
 This project was built with the following technologies:
+
 - <img src="https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=fff" alt="Bash" />
 - <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff" alt="Python" />
 - <img src="https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white" alt="C++" />
@@ -51,61 +55,69 @@ This project was built with the following technologies:
 - <img src="https://img.shields.io/badge/Sass-C69?logo=sass&logoColor=fff" alt="SASS" />
 - <img src="https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white" alt="PostgreSQL" />
 - <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?logo=mongodb&logoColor=white" alt="MongoDB" />
+- <img src="https://img.shields.io/badge/SQLite-%2307405e.svg?logo=sqlite&logoColor=white" alt="SQLite" />
 - <img src="https://img.shields.io/badge/Godot-%23FFFFFF.svg?logo=godot-engine" alt="Godot Engine" />
 - <img src="https://img.shields.io/badge/PowerShell-003B57?style=flat&logo=gnome-terminal&logoColor=white" alt="PowerShell" />
 - <img src="https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white" alt="Next.js" />
 - <img src="https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?logo=tailwind-css&logoColor=white" alt="TailwindCSS" />
 
 ## Getting Started
+
 Instructions of setting up project on your local machine.
 
 ### Prerequisites
+
 Describe prerequisites and how to complete them, this example we're installing nodemon. To install nodemon do the following:
 
 - Install Nodemon:
-    ```sh
-    npm install -g nodemon
-    ```
+  ```sh
+  npm install -g nodemon
+  ```
   Make sure NPM is installed.
-  
 - Verify installation:
-    ```sh
-    nodemon --version
-    ```
+  ```sh
+  nodemon --version
+  ```
 
 ### Installation
-1. **Clone the repository** 
-    ```sh
-    git clone --recurse-submodules https://github.com/venoblin/scripts
-    ```
+
+1. **Clone the repository**
+
+   ```sh
+   git clone --recurse-submodules https://github.com/venoblin/scripts
+   ```
 
 2. **Create settings file (for [ezdownloadsorter](https://github.com/venoblin/download-file-sorter))**
-    ```sh
-    cd scripts
-    touch settings.json
-    ```
 
-3. **Modify `settings.json`** 
-    ```json
-    {
-      "downloads": "/path/to/Downloads",
-      "destinations": {
-        ".file-extension": "/path/to/destination",
-        ".file-extension": "/path/to/destination",
-        ".file-extension": "/path/to/destination"
-      }
-    }
-    ```
+   ```sh
+   cd scripts
+   touch settings.json
+   ```
 
-4. **Install scripts** 
-    ```sh
-    ./install.sh
-    ```
+3. **Modify `settings.json`**
+
+   ```json
+   {
+     "downloads": "/path/to/Downloads",
+     "destinations": {
+       ".file-extension": "/path/to/destination",
+       ".file-extension": "/path/to/destination",
+       ".file-extension": "/path/to/destination"
+     }
+   }
+   ```
+
+4. **Install scripts**
+   ```sh
+   ./install.sh
+   ```
 
 ## Usage
+
 Put usage examples here
 
 ## Roadmap
+
 The roadmap includes both completed and future goals. Here's what we have accomplished and looking forward to:
 
 - [x] new feature
@@ -117,6 +129,7 @@ The roadmap includes both completed and future goals. Here's what we have accomp
 See the [open issues](https://github.com/user/repo/issues) for a full list of proposed features (and known issues).
 
 ## Contributing
+
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag &quot;enhancement&quot;.
@@ -129,19 +142,23 @@ Don&#39;t forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 ## License
+
 Distributed under the Mozilla Public License 2.0 License. See [Mozilla Public License 2.0 License](https://github.com/user/repo/LICENSE.md) for more information.
 
 ## Contact
+
 If you have any questions or suggestions, feel free to reach out to us:
 
 - Raise an issue on the repository: [GitHub Repository](https://github.com/user/repo)
 - Connect with us on social media: [@user](https://socialmedia.com/user)
 
 ## Acknowledgments
+
 A special thanks to the following for their contributions, support and inspiration:
 
 - [makeread.me](https://github.com/ShaanCoding/makeread.me)
 - [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
 
 ## Notice
+
 Any other information.
